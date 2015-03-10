@@ -87,7 +87,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active {
-    outline: nonte;
+    outline: none;
     background-color: rgba(255,255,255,.3);
 }
 
@@ -246,23 +246,8 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 
-#map {
-    width: 100%;
-    height: 200px;
-    margin-top: 100px;
-}
+
 
 @media(min-width:767px) {
     .content-section {
@@ -552,7 +537,7 @@ h2.feature-1-title {
 	left:-4%;
 	}
 .list-right {
-position: relative;
+	position: relative;
 	left: 41%;
 	width: 59%;
 	}
@@ -561,7 +546,6 @@ position: relative;
 	border-radius: 5px;
 	border-top: 100px solid;
 	}
-
 ul.features-list > li {
 	font-family: 'Roboto', sans-serif;
 	list-style: none;
@@ -569,16 +553,15 @@ ul.features-list > li {
 	position: relative;
 	color: #fff;
     margin-bottom: 20pt;
-}
-
+	}
 ul.features-list > li:before {
-  position: relative; top: 6pt; 
-  font-family: FontAwesome; /* FontAwesome or whatever */
-  font-size: 1.8em;
-  display: inline-block;
-  width: 1.4em; /* same as padding-left set on li */
-  margin-left: -1.4em; /* same as padding-left set on li */
-}​
+	position: relative; top: 6pt; 
+	font-family: FontAwesome; /* FontAwesome or whatever */
+	font-size: 1.8em;
+	display: inline-block;
+	width: 1.4em; /* same as padding-left set on li */
+	margin-left: -1.4em; /* same as padding-left set on li */
+	}​
 
 section#features-1 li { padding-left: 1.2em; }
 section#features-2 li { padding-left: 1.2em; }
@@ -611,9 +594,9 @@ h3.list-title2 {
 	position: absolute;
 	left: 1%;
 	}
-.fa:hover {
-	border:1px solid transparent;
-	}
+
+.fa:hover { border:1px solid transparent; }
+
 .fa-icons-dark {
 	font-size: 2.5em;
 	color:  #1F5F6C;
@@ -628,39 +611,26 @@ h3.list-title2 {
 	font-size: 2.5em;
 	color:  #1F5F6C;
 	}
-.fa-icons-dark2:hover {
-	border: none;
-	}
+	
+.fa-icons-dark2:hover { border: none; }
+
 .fa-icons-med {
 	color:#1C8296;
 	font-size: 2.5em;
 	position: absolute;
 	left: 0%;
 	}
-.fa-retweet {
-	position: relative;
-	}
-.blue-text {
-	color: #219ab3;
-	}
-.blue-text-med {
-	color: #1C8296;
-	}
-.blue-text-light {
-	color:#E4FFFA;
-	}
-.blue-text-med-light {
-	color: #67B3C2;
-	}
-.yellow-text {
-	color: #E8E81F;
-	}
-h3 {
- 	font-size: 1.8em;
- 	}
-h3.quotes {
-	font-size: 1.8em;
-	}
+.fa-retweet { position: relative; }
+
+.blue-text { color: #219ab3; }
+.blue-text-med { color: #1C8296; }
+.blue-text-light { color:#E4FFFA; }
+.blue-text-med-light { color: #67B3C2; }
+.yellow-text { color: #E8E81F; }
+
+h3 { font-size: 1.8em; }
+h3.quotes { font-size: 1.8em; }
+
 .quotes2 {
 	font-size: .65em;
 	text-align: left;
@@ -681,12 +651,9 @@ p.footer {
 	display: inline-block;
 	}
 
-li.li {
-	font-size: 1.5em;
-	}
-li.li-2 {
-	font-size: 1.5em;
-	}
+li.li   { font-size: 1.5em; }
+li.li-2 { font-size: 1.5em; }
+
 div.switch-out {
 	min-height: 160px;
 	position: relative;
@@ -711,9 +678,7 @@ img.brand-logo {
 	left: -0.4%;
 	top: -42px;
 	}
-.container-android {
-	overflow:hidden;
-	}
+.container-android { overflow: hidden; }
 .phone-android {
 	position: relative;
 	width: 100%;
@@ -752,12 +717,10 @@ li:hover .move-up {
 	-moz-transition: all 2s ease-in-out;
 	-o-transition: all 2s ease-in-out;
 	}
-.fa {
-	display: inline;
-	}	
-.li {
-	display: block; 
-	}
+
+.fa { display: inline; }	
+.li { display: block; }
+
 .iphone-container {
 	position: relative;
 	width: 30%;
@@ -777,9 +740,9 @@ li:hover .move-up {
 	margin-top: 34%;
 	left: 51%;
 	}
-.darker {
-	color: #3f474f;
-	}
+
+.darker { color: #3f474f; }
+
 div.widget-container {
 	position: relative;
 	width: 100%;
@@ -794,19 +757,17 @@ div.widget-body {
 	display: inline-block;
 	border-radius: 3px;
 	}
-div.widget-body:hover {
-	border: 2px solid transparent;
-	}
+
+div.widget-body:hover { border: 2px solid transparent; }
+
 .landing {
 	position: relative;
 	z-index: 2;
 	}
-#phone-2 {
-	border: 0px;
-	}
-#phone-2:hover {
-	border: 1px solid transparent;
-	}
+
+#phone-2 { border: 0px; }
+#phone-2:hover { border: 1px solid transparent; }
+
 .success-message {
 	display: none;
 	position: absolute;	
@@ -1264,7 +1225,3 @@ div.widget-body:hover {
 		height: 500px; 
 		}
 }
-
-
-
-
