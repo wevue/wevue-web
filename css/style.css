@@ -247,8 +247,6 @@ a:focus {
 }
 
 
-
-
 @media(min-width:767px) {
     .content-section {
         padding-top: 250px;
@@ -611,7 +609,7 @@ h3.list-title2 {
 	font-size: 2.5em;
 	color:  #1F5F6C;
 	}
-	
+
 .fa-icons-dark2:hover { border: none; }
 
 .fa-icons-med {
