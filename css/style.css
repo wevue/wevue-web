@@ -647,6 +647,7 @@ p.footer {
 	position: relative;
 	width:60%;
 	display: inline-block;
+	padding-bottom: 4.5%;
 	}
 
 li.li   { font-size: 1.5em; }
@@ -880,7 +881,7 @@ div.widget-body:hover { border: 2px solid transparent; }
 			left: -5%;
 			}
 		ul.features-list {
-			width: 70%;
+			width: 63%;
 			}
 		.push-li {
 			width: 469px;
@@ -942,7 +943,7 @@ div.widget-body:hover { border: 2px solid transparent; }
 			width: 12%;
 			}
 		ul.features-list {
-			width: 66%;
+			width: 62%;
 			}
 		}
 
@@ -992,7 +993,7 @@ div.widget-body:hover { border: 2px solid transparent; }
 			top: 0px;
 			}
 		.list-right {
-			left: 37%;
+			left: 39%;
 			width: 64%;
 			}
 		.i-phone {
@@ -1044,12 +1045,12 @@ div.widget-body:hover { border: 2px solid transparent; }
 			padding-bottom: 0%; 
 			}
 		ul.list-right {
-			left: 41%;
+			left: 46%;
 			max-width: 53%;
 			}
 		ul.features-list {
 			top:-50px;
-			width: 66%;
+			width: 60%;
 			}
 		.features-section {
 			padding-top: 0px;
