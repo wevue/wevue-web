@@ -680,9 +680,7 @@ p.footer {
 	width:60%;
 	display: inline-block;
 	}
-.fa-lock {
-	transform: rotate(20deg);
-	}
+
 li.li {
 	font-size: 1.5em;
 	}
@@ -830,8 +828,6 @@ div.widget-body:hover {
 	}
 
 
-
-
 @media(min-width:1500px) {
 
 		.intro-container {
@@ -924,7 +920,7 @@ div.widget-body:hover {
 		.iphone-container {
 			left: -5%;
 			}
-		ul.features-1-list {
+		ul.features-list {
 			width: 70%;
 			}
 		.push-li {
@@ -986,7 +982,7 @@ div.widget-body:hover {
 		.push-icon {
 			width: 12%;
 			}
-		ul.features-1-list {
+		ul.features-list {
 			width: 66%;
 			}
 		}
@@ -1092,7 +1088,7 @@ div.widget-body:hover {
 			left: 41%;
 			max-width: 53%;
 			}
-		ul.features-1-list {
+		ul.features-list {
 			top:-50px;
 			width: 66%;
 			}
@@ -1143,6 +1139,7 @@ div.widget-body:hover {
 			 -ms-animation: none !important;
 			 animation: none !important;
 			 }
+
 		}		
 
 @media(max-width:500px) {
