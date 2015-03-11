@@ -497,7 +497,6 @@ h3.elevator {
 	}
 .push-li {
 	position: relative;
-	left: -2%;
 	width: 600px;
 	}
 span.details-title {
@@ -706,8 +705,8 @@ li:hover .move-up {
 .inner {
 	position: absolute;
 	overflow: hidden;
-	width: 73%;
-	left: 13%;
+	width: 74%;
+	left: 12.5%;
 	height: 77%;
 	top: 10%;
 	}
@@ -784,7 +783,9 @@ div.widget-body:hover { border: 2px solid transparent; }
 	}
 .iframe {
 	height: 475px;
-	width: 100%;
+	width: 110%;
+	position: relative;
+	left: -5%;
 	}
 
 
@@ -884,7 +885,7 @@ div.widget-body:hover { border: 2px solid transparent; }
 			width: 63%;
 			}
 		.push-li {
-			width: 469px;
+			width: 450px;
 			}
 		}
 
@@ -971,6 +972,10 @@ div.widget-body:hover { border: 2px solid transparent; }
 			}
 		h3.quotes {
 			font-size: 1em;
+			}
+		.iframe {
+			width: 100%;
+			left: 0;
 			}
 		}
 
