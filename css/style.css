@@ -497,7 +497,6 @@ h3.elevator {
 	}
 .push-li {
 	position: relative;
-	left: -2%;
 	width: 600px;
 	}
 span.details-title {
@@ -571,10 +570,8 @@ section#features-3 li:before { color: #1F5F6C; }
 
 
 ul.last-list {
-	font-family: 'Roboto', sans-serif;
-	list-style: none;
-	text-align: left;
-	color: #fff;
+	padding-bottom: 2.7%;
+	padding-top: 2%;
 	}
 h3.list-title {
 	color: white;
@@ -706,8 +703,8 @@ li:hover .move-up {
 .inner {
 	position: absolute;
 	overflow: hidden;
-	width: 73%;
-	left: 13%;
+	width: 74%;
+	left: 12.5%;
 	height: 77%;
 	top: 10%;
 	}
@@ -784,9 +781,14 @@ div.widget-body:hover { border: 2px solid transparent; }
 	}
 .iframe {
 	height: 475px;
-	width: 100%;
+	width: 110%;
+	position: relative;
+	left: -5%;
 	}
-
+div.wevue_album_widget_image {
+	width: 240px !important;
+	height: 180px !important;
+	}
 
 @media(min-width:1500px) {
 
@@ -884,7 +886,7 @@ div.widget-body:hover { border: 2px solid transparent; }
 			width: 63%;
 			}
 		.push-li {
-			width: 469px;
+			width: 450px;
 			}
 		}
 
@@ -971,6 +973,10 @@ div.widget-body:hover { border: 2px solid transparent; }
 			}
 		h3.quotes {
 			font-size: 1em;
+			}
+		.iframe {
+			width: 100%;
+			left: 0;
 			}
 		}
 
@@ -1068,6 +1074,11 @@ div.widget-body:hover { border: 2px solid transparent; }
 			}
 		.widget-text {
 			top:-60px;
+			}
+		ul.last-list {
+			padding-bottom: 0;
+			padding-top: 0;
+			margin-bottom: -40px;
 			}
 		}
 
