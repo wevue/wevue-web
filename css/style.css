@@ -570,10 +570,8 @@ section#features-3 li:before { color: #1F5F6C; }
 
 
 ul.last-list {
-	font-family: 'Roboto', sans-serif;
-	list-style: none;
-	text-align: left;
-	color: #fff;
+	padding-bottom: 2.7%;
+	padding-top: 2%;
 	}
 h3.list-title {
 	color: white;
@@ -787,7 +785,10 @@ div.widget-body:hover { border: 2px solid transparent; }
 	position: relative;
 	left: -5%;
 	}
-
+div.wevue_album_widget_image {
+	width: 240px !important;
+	height: 180px !important;
+	}
 
 @media(min-width:1500px) {
 
@@ -1073,6 +1074,11 @@ div.widget-body:hover { border: 2px solid transparent; }
 			}
 		.widget-text {
 			top:-60px;
+			}
+		ul.last-list {
+			padding-bottom: 0;
+			padding-top: 0;
+			margin-bottom: -40px;
 			}
 		}
 
