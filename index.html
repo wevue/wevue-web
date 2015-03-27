@@ -328,31 +328,6 @@
     hover.record({
       siteId: "UA-873615"
     });
-
-    $('#submit').on('click', function() {
-    dataLayer.push({
-        'event' : 'gaTriggerEvent',
-        'gaEventCategory' : 'form',
-        'gaEventAction' : 'submit',
-        'gaEventLabel' : 'lead-gen'
-            });
-        })
-     $('#personal').on('click', function() {
-    dataLayer.push({
-        'event' : 'gaTriggerEvent',
-        'gaEventCategory' : 'links',
-        'gaEventAction' : 'click',
-        'gaEventLabel' : 'went-to-wevue-old-site'
-            });
-        })
-    $('#wevue_album_widget').on('click', function() {
-    dataLayer.push({
-        'event' : 'gaTriggerEvent',
-        'gaEventCategory' : 'event',
-        'gaEventAction' : 'click',
-        'gaEventLabel' : 'click-widget'
-            });
-        })
     </script>
 <!-- End Analytics Tool --> 
 
