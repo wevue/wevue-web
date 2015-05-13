@@ -3,8 +3,16 @@
 	// h1, h3 {
 	// 	text-align:center;
 	// }
+	
 	height:480px !important;
+
+	// @media #{$breakpoint-medium} {
+	// 	min-height:780px;
+	// }
+
+
 	background-image: url("../images/bg/lance-background.jpg") !important;
+	background-position: 100% !important;
 
 	h1, h3 {
 	 	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -19,7 +27,17 @@
 	}
 
 	h3 {
-		font-size:1.2em;
+		
+		font-size:0.9em;
+
+		@media #{$breakpoint-medium} {
+			
+			
+			font-size:1.3em;
+
+		}
+
+
 	}
 }
 
@@ -37,13 +55,33 @@
 }
 
 .wevue-cta, .download-btn {
-	background-color:$wevue-orange;
+	background-color:darken($wevue-orange, 5);
+	
+	transition: all 0.2s ease;
 	padding: 10px 20px;
-	color:$white;
+	color:$white !important;
 	border:none;
 	text-transform:uppercase;
 	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight:100;
+
+	width:100%;
+	cursor:pointer;
+	text-decoration:none !important;
+
+	&:hover {
+		background-color:$wevue-orange;
+		transition: all 0.2s ease;
+		
+	}
+
+	@media #{$breakpoint-medium} {
+			width:200px;
+	}
+
+	a {
+		text-decoration:none;
+	}
 
 
 }
@@ -52,8 +90,9 @@
 	font-size:0.85em;
 	a  {
 		color:$white;
+		text-decoration:none;
 	}
-	width:200px;
+
 }
 
 

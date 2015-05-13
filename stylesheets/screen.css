@@ -86,7 +86,8 @@ img {
 .hero-message {
   text-align: center;
   height: 480px !important;
-  background-image: url("../images/bg/lance-background.jpg") !important; }
+  background-image: url("../images/bg/lance-background.jpg") !important;
+  background-position: 100% !important; }
   .hero-message h1, .hero-message h3 {
     font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 100;
@@ -95,7 +96,10 @@ img {
     margin-top: 60px;
     font-size: 2.7em; }
   .hero-message h3 {
-    font-size: 1.2em; }
+    font-size: 0.9em; }
+    @media only screen and (min-width: 30em) {
+      .hero-message h3 {
+        font-size: 1.3em; } }
 
 #section-tagline {
   background-color: #35A18E !important; }
@@ -104,19 +108,31 @@ img {
   background-image: url("../images/bg/bg-blur-rockyshore.jpg") !important; }
 
 .wevue-cta, .download-btn {
-  background-color: #E97364;
+  background-color: #e65f4e;
+  transition: all 0.2s ease;
   padding: 10px 20px;
-  color: #FFF;
+  color: #FFF !important;
   border: none;
   text-transform: uppercase;
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 100; }
+  font-weight: 100;
+  width: 100%;
+  cursor: pointer;
+  text-decoration: none !important; }
+  .wevue-cta:hover, .download-btn:hover {
+    background-color: #E97364;
+    transition: all 0.2s ease; }
+  @media only screen and (min-width: 30em) {
+    .wevue-cta, .download-btn {
+      width: 200px; } }
+  .wevue-cta a, .download-btn a {
+    text-decoration: none; }
 
 .download-btn {
-  font-size: 0.85em;
-  width: 200px; }
+  font-size: 0.85em; }
   .download-btn a {
-    color: #FFF; }
+    color: #FFF;
+    text-decoration: none; }
 
 .cycle-slide {
   width: 100%; }
