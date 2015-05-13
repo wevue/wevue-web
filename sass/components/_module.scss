@@ -1,0 +1,19 @@
+nav {
+	.main-navigation {
+
+		margin:0;
+
+		float:right;
+
+		li {
+			list-style-type:none;
+			display:inline-block;
+			padding:0 20px;
+
+			a {
+				color:$white;
+				font-weight:bold;
+			}
+		}
+	}
+}

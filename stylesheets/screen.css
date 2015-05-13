@@ -1,0 +1,190 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+.wrapper,
+.row {
+  *zoom: 1; }
+  .wrapper:before,
+  .row:before, .wrapper:after,
+  .row:after {
+    content: " ";
+    display: table; }
+  .wrapper:after,
+  .row:after {
+    clear: both; }
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto !important; }
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto; }
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+[class*='column-'] {
+  float: left;
+  padding: 1em;
+  width: 100%;
+  min-height: 1px; }
+  [class*='column-'].has-outline {
+    border: 1px solid; }
+
+.row.has-outlines [class*='column-'] {
+  border: 1px solid; }
+
+@media only screen and (min-width: 30em) {
+  .wrapper {
+    width: 95%;
+    max-width: 65em; }
+
+  .column-1 {
+    width: 8.33333%; }
+
+  .column-2 {
+    width: 16.66667%; }
+
+  .column-3 {
+    width: 25%; }
+
+  .column-4 {
+    width: 33.33333%; }
+
+  .column-5 {
+    width: 41.66667%; }
+
+  .column-6 {
+    width: 50%; }
+
+  .column-7 {
+    width: 58.33333%; }
+
+  .column-8 {
+    width: 66.66667%; }
+
+  .column-9 {
+    width: 75%; }
+
+  .column-10 {
+    width: 83.33333%; }
+
+  .column-11 {
+    width: 91.66667%; }
+
+  .column-12 {
+    width: 100%; } }
+.hero-message {
+  text-align: center;
+  height: 480px !important;
+  background-image: url("../images/bg/lance-background.jpg") !important; }
+  .hero-message h1, .hero-message h3 {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    text-align: center; }
+  .hero-message h1 {
+    margin-top: 60px;
+    font-size: 2.7em; }
+  .hero-message h3 {
+    font-size: 1.2em; }
+
+#section-tagline {
+  background-color: #35a18e !important; }
+
+#section-examples {
+  background-image: url("../images/bg/bg-blur-rockyshore.jpg") !important; }
+
+.wevue-cta, .download-btn {
+  background-color: #e97364;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100; }
+
+.download-btn {
+  font-size: 0.85em; }
+  .download-btn a {
+    color: white; }
+
+.cycle-slide {
+  width: 100%; }
+
+section#contact h1, section#contact h2, section#contact h3, section#contact h4, section#contact h5, section#contact h6, section#contact p {
+  color: white; }
+
+#section-tagline h3, #section-tagline h4, .box-service h3, .box-service h4 {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100 !important;
+  font-size: 1.5em;
+  text-transform: uppercase; }
+
+.contact-header {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100 !important;
+  font-size: 1.5em;
+  text-transform: uppercase; }
+
+#mc_embed_signup {
+  text-align: center;
+  color: white;
+  background: transparent !important;
+  border: 2px solid #568eb3;
+  border-radius: 3px;
+  margin-bottom: 50px; }
+  #mc_embed_signup form {
+    padding-left: 0 !important; }
+  #mc_embed_signup .button.button {
+    width: 100%;
+    padding: 10px 20px;
+    height: auto;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 100 !important;
+    background-color: #568eb3;
+    transition: all 0.2s ease; }
+    #mc_embed_signup .button.button:hover {
+      transition: all 0.2s ease;
+      background-color: #689abb; }
+  #mc_embed_signup #mce-success-response {
+    color: #568eb3 !important; }
+  #mc_embed_signup #mc_embed_signup_scroll {
+    padding: 0 30px; }
+  #mc_embed_signup .mc-field-group {
+    width: 100% !important; }
+    #mc_embed_signup .mc-field-group label {
+      font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 100 !important; }
+  #mc_embed_signup:hover {
+    background-color: #568eb3; }
+  #mc_embed_signup h2 {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 100 !important;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center; }
+
+#section-examples {
+  padding-bottom: 0 !important;
+  background-position: 0 0 !important; }
+
+nav .main-navigation {
+  margin: 0;
+  float: right; }
+  nav .main-navigation li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 20px; }
+    nav .main-navigation li a {
+      color: white;
+      font-weight: bold; }

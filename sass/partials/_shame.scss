@@ -1,0 +1,47 @@
+//  Reset White Platform Styles
+.bx-viewport {
+	background:none !important;
+	box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	border:none !important;
+}
+
+
+
+.bx-wrapper {
+
+	.bx-prev {
+	left:-50px !important;
+	}
+
+	.bx-next {
+	right:-50px !important;
+	}
+
+}
+
+
+#party {
+	
+	.bx-wrapper {
+
+	.bx-controls-direction {
+
+		a {
+			top:0% !important;
+		}
+	
+	}
+
+	.bx-prev {
+	left:375px !important;
+	}
+
+	.bx-next {
+	right:-5px !important;
+	}
+
+	}
+	
+}

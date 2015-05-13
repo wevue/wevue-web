@@ -1,0 +1,102 @@
+// ******************************************
+	// Stache Lightbox Styles
+	// ******************************************
+	
+	.stache-lightbox {
+		background: #000;
+		opacity: 0.9;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		min-width: 100%;
+		min-height: 100%;
+		z-index: 1000;
+		display:none;
+	}
+
+	.stache-lightbox-panel {
+		position:fixed;
+		z-index:1001;
+		top:50%;
+		left:50%;
+		width:90%;
+		height:75%;
+		background-color: #3C3C3C;
+		margin-left:-45%;
+		margin-top:-250px;
+		color:$white;
+		text-align:left;
+		display:none;
+		@include boxShadow;
+
+		h3 {
+			text-align:left;
+			color:$white;
+			margin-top:0;
+			font-family:"PFDinTextPro-Bold";
+
+		}
+
+		p {
+			text-align:left;
+		}
+		
+		.close {
+			position: absolute;
+			right: -15px;
+			top: -15px;
+			width:40px;
+			height:40px;
+			color: $white;
+			background-color:red;
+			text-align:center;
+			padding-top:13px;
+		}
+
+	}
+
+
+// ******************************************
+// Media Queries
+// ******************************************
+	
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+.lightbox-panel {
+	top:60% !important;
+	height:435px !important;
+	width:90% !important;
+}
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 790px) {
+
+
+	.lightbox-panel {
+		width:700px !important;
+		margin-left:-350px !important;
+		height:400px !important;
+
+		
+	}
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+	.lightbox-panel {
+		height:400px !important;
+	}
+
+}

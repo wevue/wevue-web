@@ -1,0 +1,29 @@
+// Name of Font
+@font-face{ 
+	font-family: '[font-name]';
+	src: url('../fonts/[font-family]]/[font-file].eot');
+	src: url('../fonts/[font-family]]/[font-file].eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/[font-family]]/[font-file].woff') format('woff'),
+	     url('../fonts/[font-family]]/[font-file].ttf') format('truetype'),
+	     url('../fonts/[font-family]]/[font-file].svg#webfont') format('svg');
+}
+
+// Adjust Layout with Typeface
+@mixin adjust_layout($panel-number, $spacing:"", $height:"", $font-size:"", $important: "") {
+
+	.panel-#{$panel-number} {
+	// Spacing
+	width: $spacing * 1%;
+	margin-left: ($spacing / 2) * -1%;
+
+	// Height
+	top: $height * 1% $important;
+	// Font Size
+	font-size: $font-size + 0em;
+
+	}
+	
+}
+
+// USE
+@include adjust_layout(2, 70, 25, 0.85, !important);
