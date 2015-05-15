@@ -1,6 +1,6 @@
 # Require any additional compass plugins here.
 # Assuming you already ran 'sudo gem install sass --pre' for Bleeding Edge,  Run below for DevTools development with Sass:
-# sass --watch --sourcemap sass/screen.scss:stylesheets/screen.css
+# sass --watch sass/screen.scss:stylesheets/screen.css
 
 
 # Set this to the root of your project when deployed:
